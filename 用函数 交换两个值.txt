@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Max(int x,int y)
+{
+	if(x > y)
+	{
+		return x;
+	}
+	return y;
+}
+
+int main()
+{
+	//使用调用函数
+	int ret = Max(10,20);
+	printf("ret = %d\n", ret);
+	
+	system("pause");
+	return 0;
+}
