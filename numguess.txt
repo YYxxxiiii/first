@@ -69,3 +69,78 @@ int main()
 	return 0;
 	
 }
+
+
+
+
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int Menu()
+{
+	printf("==========================\n");
+	printf(" welcome to guess play!!!\n");
+	printf("        1.start\n");
+	printf("        0.over\n");
+	printf("==========================\n");
+	
+	printf("your choose:");
+	int choose = 0;
+	scanf("%d", &choose);
+	return choose;
+}
+
+
+void Game()
+{
+	
+	int toGuess = rand() % 100 + 1;
+
+	while (1)
+	{
+		int num = 0;
+		printf("guess a num(1-100):");
+		scanf("%d", &num);
+		if (num < toGuess)
+		{
+			printf("lower\n");
+		}
+		else if (num > toGuess)
+		{
+			printf("higher\n");
+		}
+		else
+		{
+			printf("bingo\n");
+			break;
+		}
+	}
+
+
+}
+
+
+
+int main()
+{
+	while (1)
+	{
+		int num = Menu();
+		if (num == 1)
+		{
+			Game();
+		}
+		else
+		{
+			printf("bye!!!\n");
+			break;
+		}
+	}
+	system("pause");
+	return 0;
+	
+}
