@@ -12,7 +12,6 @@ int Max(int x,int y)
 
 int main()
 {
-	//使用调用函数
 	int ret = Max(10,20);
 	printf("ret = %d\n", ret);
 	
