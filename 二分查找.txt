@@ -10,7 +10,7 @@ void main()
 	int num = 0;
 	scanf("%d", &num);
 	int left = 0;
-	int right = sizeof(arr) / sizeof(arr[0] - 1);
+	int right = sizeof(arr) / sizeof(arr[0]) - 1;
 	//整个长度减去单个的长度就是个数 再减去一就是下标
 
 	//如果待查找区间不为空,那就继续
