@@ -1,20 +1,22 @@
+#define  _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
-int Max(int x,int y)
+int Swap(int* x, int* y) //形参
 {
-	if(x > y)
-	{
-		return x;
-	}
-	return y;
+	int temp;
+	temp = *x;
+	*x = *y;
+	*y = temp;
 }
 
 int main()
 {
-	int ret = Max(10,20);
-	printf("ret = %d\n", ret);
-	
+	int a, b;
+	scanf("%d %d", &a, &b);
+	Swap(&a, &b); //实参
+	printf("a=%d b=%d\n", a, b);
+
 	system("pause");
 	return 0;
 }
