@@ -1,2 +1,33 @@
 ﻿  源.c
-  11.29.vcxproj -> D:\dev_code\first\11.29\Debug\11.29.exe
+d:\dev_code\first\11.29\11.29\源.c(31): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+d:\dev_code\first\11.29\11.29\源.c(26): warning C4101: “j”: 未引用的局部变量
+d:\dev_code\first\11.29\11.29\源.c(26): warning C4101: “i”: 未引用的局部变量
+d:\dev_code\first\11.29\11.29\源.c(98): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+d:\dev_code\first\11.29\11.29\源.c(96): warning C4101: “i”: 未引用的局部变量
+d:\dev_code\first\11.29\11.29\源.c(112): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+d:\dev_code\first\11.29\11.29\源.c(110): warning C4101: “i”: 未引用的局部变量
+d:\dev_code\first\11.29\11.29\源.c(132): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+d:\dev_code\first\11.29\11.29\源.c(130): warning C4101: “j”: 未引用的局部变量
+d:\dev_code\first\11.29\11.29\源.c(130): warning C4101: “i”: 未引用的局部变量
+d:\dev_code\first\11.29\11.29\源.c(171): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+d:\dev_code\first\11.29\11.29\源.c(176): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+d:\dev_code\first\11.29\11.29\源.c(182): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+d:\dev_code\first\11.29\11.29\源.c(193): warning C4098: “dfs”:“void”函数返回值
+d:\dev_code\first\11.29\11.29\源.c(195): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+d:\dev_code\first\11.29\11.29\源.c(198): error C2065: “name”: 未声明的标识符
+d:\dev_code\first\11.29\11.29\源.c(198): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+d:\dev_code\first\11.29\11.29\源.c(198): warning C4024: “strcmp”: 形参和实参 1 的类型不同
+d:\dev_code\first\11.29\11.29\源.c(201): warning C4098: “dfs”:“void”函数返回值
+d:\dev_code\first\11.29\11.29\源.c(203): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+d:\dev_code\first\11.29\11.29\源.c(220): error C2065: “m”: 未声明的标识符
+d:\dev_code\first\11.29\11.29\源.c(227): warning C4098: “dfs”:“void”函数返回值
+d:\dev_code\first\11.29\11.29\源.c(192): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+d:\dev_code\first\11.29\11.29\源.c(217): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+d:\dev_code\first\11.29\11.29\源.c(221): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
